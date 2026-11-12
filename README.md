@@ -9,3 +9,13 @@ Laboratorio 4 de Programación Orientada a Objetos. Aplicación de consola en Ja
 
 - JDK 11 o posterior, con los comandos `java` y `javac` disponibles.
 - Una terminal ubicada dentro de la carpeta `ArenaGT_Lite`.
+
+
+## Compilar y ejecutar
+
+Desde PowerShell, CMD o una terminal de Linux/macOS:
+
+```sh
+javac javac -d bin src/model/*.java src/controller/*.java src/view/*.java src/main/*.java
+java -cp bin main.Main
+```
